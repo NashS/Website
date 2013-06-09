@@ -1,5 +1,5 @@
 <?php
-echo "My first PHP script!";
+echo "My first PHP5 script!";
 ?>
 
 <!DOCTYPE html>
