@@ -1,18 +1,20 @@
-<?php
-  print <<< EOT
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Test successful</title>
+<base href = "localhost/WEB-INF">
+<link rel="stylesheet" href="../bootstrap.css" />
 </head>
 <body>
 <h1>Test successful</h1>
+<h2>Wat Wat</h2> 		
 <p>Congratulations.</p>
-<p>Apache and PHP are working.Derp a derp</p>
-<p>Here is a link: <a href="first_page.php">click it</a></p>
+<p>Your webserver and PHP are working.</p>
 </body>
 </html>
-EOT;
 
+<?php 
+	print("WHAT UP");
 ?>
