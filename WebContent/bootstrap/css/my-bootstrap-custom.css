@@ -1,0 +1,29 @@
+body {
+	background-image: url('../img/CC_piano_keys.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center; 
+	background-size: 100%;
+}
+
+.navbar-inverse .nav > li > a:HOVER,
+.navbar-inverse .nav > li > a:FOCUS	{
+	color: orange;
+}
+
+.nav-list > li i{
+	opacity: 0.25;
+	float: right;
+}
+
+.nav-list > li:HOVER i{
+	opacity: 1;
+}
+
+.well {
+	margin-top: 15px;
+	opacity: 0.9;
+	border-color: grey;
+	border-width: 2px;
+	border-radius: 10px;
+}
