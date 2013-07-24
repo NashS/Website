@@ -1,29 +1,74 @@
 body {
+	padding-top: 80px;
+    padding-bottom: 40px;
 	background-image: url('../img/CC_piano_keys.jpg');
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position:center; 
-	background-size: 100%;
+	background-size: cover;
 }
 
-.navbar-inverse .nav > li > a:HOVER,
-.navbar-inverse .nav > li > a:FOCUS	{
-	color: orange;
+a{
+	color:#999999;
+}
+
+h1{
+	padding-bottom: 10px;
+}
+
+.hero-unit h1{
+	padding-bottom: 30px;	
+}
+
+.sidebar-nav {
+	padding: 10px;	
 }
 
 .nav-list > li i{
-	opacity: 0.25;
+	color: #999999;
 	float: right;
 }
 
-.nav-list > li:HOVER i{
-	opacity: 1;
+.navbar-inverse .nav > .active > a{
+	color: orange;
 }
 
-.well {
-	margin-top: 15px;
+.navbar-inverse .nav > .active:HOVER > a{
+	color: orange;
+}
+
+.nav-list > li a, 
+.nav-list > li i{
+	border-radius: 5px;
+}
+
+.nav-list > li:HOVER > a,
+.nav-list > li:HOVER > a > i{
+	background-color: black;
+	color: #ffffff;
+}
+
+.nav-list > .active > a, 
+.nav-list > .active > a > i{
+	color: orange;
+	background-color: black;
+	
+}
+
+.nav-list > .active:HOVER > a,
+.nav-list > .active:HOVER > a > i{
+	color: orange;
+	background-color: black;
+	
+}
+
+.well, 
+.hero-unit{
+	background-color:black;
+	color:#999999;
+	margin-top: 25px;
 	opacity: 0.9;
-	border-color: grey;
+	border-color: #999999;
 	border-width: 2px;
 	border-radius: 10px;
 }
