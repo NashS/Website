@@ -22,6 +22,7 @@ h1{
 
 .sidebar-nav {
 	padding: 10px;	
+	top: 50px; /* Set the top position of pinned element */
 }
 
 .nav-list > li i{
@@ -67,8 +68,12 @@ h1{
 	background-color:black;
 	color:#999999;
 	margin-top: 25px;
-	opacity: 0.9;
+	opacity: 0.95;
 	border-color: #999999;
 	border-width: 2px;
 	border-radius: 10px;
+}
+
+.affix{
+	top:75px;
 }
