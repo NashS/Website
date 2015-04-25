@@ -75,5 +75,26 @@ h1{
 }
 
 .affix{
-	top:75px;
+	top:80px;
+}
+
+.btn-navbar{
+	margin-top: 8px;
+}
+
+input.bg-danger.form-control{
+	background-color: #f2dede;
+}
+
+.inverse-tooltip + .tooltip > .tooltip-inner {
+	background-color: black;
+	color:#f2dede;
+}
+
+.errorText{
+	color:#a94442;
+}
+
+.successText{
+	color:#5cb85c;
 }

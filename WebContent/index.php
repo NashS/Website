@@ -1,4 +1,7 @@
-<?php require($DOCUMENT_ROOT . "navbar.php"); ?>
+<?php 
+require("navbar.php"); 
+require("login.php");
+?>
 
 <!DOCTYPE html>
 <html lang="en">

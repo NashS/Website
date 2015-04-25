@@ -1,4 +1,7 @@
-<?php require($DOCUMENT_ROOT . "navbar.php"); ?>
+<?php 
+require('navbar.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <body data-spy="scroll" data-target="#sidebar">

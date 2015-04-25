@@ -2,7 +2,7 @@
 /* Short and sweet */
 define('WP_USE_THEMES', false);
 require('blog/wordpress/wp-blog-header.php');
-require($DOCUMENT_ROOT . "navbar.php");
+require('navbar.php');
 ?>
 
 <!DOCTYPE html>
