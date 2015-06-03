@@ -11,7 +11,7 @@ require('navbar.php');
 	<!--  Main content area  -->
 	<div class="container">
 	  <div class="row-fluid">
-	    <div class="span2">
+	    <div class="col-md-2">
 	      	<!--Sidebar content-->
 	    	<div id="sidebar" class="well sidebar-nav affix">
 		      	<ul class="nav nav-list">
@@ -23,7 +23,7 @@ require('navbar.php');
 		      	</ul>
 	    	</div>
 	    </div>
-	    <div class="span10">
+	    <div class="col-md-10">
 	       	<!--main content info-->
 	       	<div id="content-info">
 	       	
